@@ -1,0 +1,31 @@
+.contenedor{
+
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+
+}
+
+.elemento{
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+
+
+}
+
+
+@media screen and (max-width:600px){
+
+    .contenedor {
+
+            grid-template-columns:1fr;
+            /* Cambia a una sola columna en pantallas más pequeñas */
+    
+        }
+    
+}
+

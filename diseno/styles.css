@@ -1,0 +1,30 @@
+.caja{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+
+
+
+}
+
+
+/* Media Query para dispositivos con un ancho máximo de 600px */
+@media screen and (max-width:600px) {
+
+    .caja {
+
+        width: 50%;
+    }  
+}
+
+@media screen and (max-width:400px) {
+
+    .caja {
+
+        width: 100%;
+    }
+}
